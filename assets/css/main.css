@@ -76,8 +76,6 @@
     font-family: 'Gotham Rounded', sans-serif;
     font-size: 16px;
     font-weight: 500;
-
-    /* Text style for "p, rint yo" */
     letter-spacing: 2.4px;;
 }
 .hero {
@@ -137,7 +135,7 @@
     padding-bottom: 45px;
 }
 
-.hero__link {
+.btn {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -145,6 +143,8 @@
     padding: 20px 30px;
     border-radius: 3px;
     background-color: #16a085;
+    color: white;
+    text-decoration: none;
 }
 
 .hero-soc__nav {
@@ -158,4 +158,265 @@
     font-size: 24px;
     padding: 26px 8px 0;
     color: white;
+}
+
+.bg-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px 130px 35px;
+
+}
+
+.footer__nav {
+    color: #373737;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.nav__link {
+    color: #373737;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    text-decoration: none;
+
+}
+
+.link__text--green {
+    color: #16a085;
+    letter-spacing: 2.1px;
+    font-weight: 700;
+}
+
+.footer__paragraph {
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    margin: 0;
+}
+
+.footer__img {
+    align-self: flex-end;
+    position: absolute;
+
+}
+
+.simple__wrap,
+.design__wrap {
+    width: 40%;
+}
+
+.simple {
+    background: url("../img/second-bg1.png") right no-repeat white;
+    padding: 110px 130px 92px;
+    margin-right: 128px;
+}
+
+.simple__title {
+    color: #16a085;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    padding-bottom:46px;
+    margin: 0;
+}
+
+.simple__paragraph {
+    margin: 0;
+    color: #373737;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.8px;
+    padding-bottom: 45px;
+}
+
+.design {
+    background: url("../img/flat-iphone1.png") left no-repeat white;
+    margin-top: 144px;
+    margin-left: 124px ;
+    display: flex;
+    justify-content: flex-end;
+    padding:0 82px 82px 0;
+}
+
+.simple__paragraph--small,
+.community__paragraph--small {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-top: 63px;
+    margin: 0;
+}
+
+.simple__paragraph--small .fa,
+.community__paragraph--small .fa {
+    color: #373737;
+    padding: 0;
+}
+
+.simple__paragraph--arrow {
+    display: block;
+}
+
+.community,
+.download {
+    background-color: #f5f6f7;
+    color: #373737;
+}
+.community__wrap {
+    padding: 95px 130px 118px ;
+}
+
+.community__item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.community__paragraph--small {
+    padding: 0 0 9px;
+}
+
+.community__gallery {
+    padding: 0 12px;
+    display: flex;
+    flex-basis: 33%;
+}
+
+.community__gallery:last-child {
+    padding-right: 0;
+}
+
+.community__gallery:first-child {
+    padding-left: 0;
+}
+
+.community__gallery--logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__logo {
+    padding-top: 44px;
+}
+
+.gallery__title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    padding-top: 30px;
+}
+
+.gallery__paragraph {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 22px 99px 0;
+    text-align: center;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe {
+    background: url("../img/subscribe-bg.jpg") center no-repeat #2b1d2a;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe__title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+.subscribe__input {
+    width: 280px;
+    padding: 21px;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    border-radius:  3px 0 0 3px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.subscribe__email .fa {
+    padding: 18px;
+    border-radius: 0 3px 3px 0;
+    background-color: #16a085;
+    vertical-align: sub;
+}
+
+.download__wrap {
+    text-align: center;
+    padding: 90px 255px 116px;
+}
+
+.download__title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 14px;
+}
+
+.download__paragraph {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin: 0;
+    padding-bottom: 45px;
+}
+
+.download__btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn__item {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    border-radius: 3px 0 0 3px;
+    background-color: #1abc9c;
+    padding: 20px ;
+    text-decoration: none;
+    width: 240px;
+    box-sizing: border-box;
+    text-align: left;
+
+
+}
+
+.download__btn .fa {
+    padding: 15px 20px;
+    border-radius: 0 3px 3px 0;
+    background-color: #16a085;
+    text-align: right;
+    margin-right: 26px;
 }
